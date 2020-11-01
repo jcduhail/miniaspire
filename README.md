@@ -3,6 +3,9 @@
 - composer install
 - npm install && npm run dev
 
+Edit the .env file to set the correct location of the sqlite file :
+DB_DATABASE=[ABSOLUTE_PASS_TO_MINISAPIRE]/miniaspire/database/db.sqlite
+
 Either run "php artisan serve" then go to http://127.0.0.1:8000
 Or set your appache document root to miniaspire/public folder
 
